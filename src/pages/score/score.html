@@ -1,0 +1,39 @@
+
+<ion-header>
+
+  <ion-navbar>
+      <ion-buttons end>
+          <button ion-button icon-only (click)="unDo()" >
+              <ion-icon name="undo"></ion-icon>
+          </button>
+        </ion-buttons>
+    <ion-title>Score Board</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content padding>
+  <div class="row">
+    <div class="column" (click)="choosed('home')" >
+      <h3>Home</h3>
+      <h1>{{homeTeam}}</h1>
+      <p>{{homeScore}}</p>
+    </div>
+    <div class="column" (click)="choosed('away')">
+      <h3>Away</h3>
+      <h1>{{awayTeam}}</h1>
+      <p>{{awayScore}}</p>
+    </div>
+  </div>
+  <div class="buttons">
+    <button ion-button color="dark" (click)="conversion()" full round > Conversion</button>
+  </div>
+  <div class="buttons">
+    <button ion-button color="dark" (click)="penalty()" full round > Penalty</button>
+  </div>
+  <div class="buttons">
+    <button ion-button color="dark" (click)="try()" full round >Try</button>
+  </div>
+  <div class="buttons">
+    <button ion-button color="dark" (click)="reset()" full round >Reset</button>
+  </div>  
+</ion-content>

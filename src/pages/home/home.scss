@@ -1,0 +1,40 @@
+page-home {
+
+    #welcome{
+        background-image: url(../../assets/imgs/backs.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+    }
+    .inputs{
+    
+        padding-top: 40px;
+    }
+
+    h1{
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        font-style: italic;
+        font-weight: bolder;
+    }
+
+    #text{
+        font-size: 24px;
+        font-weight: bold;
+        font-style: initial;
+        text-align: center;
+        color: whitesmoke;
+
+    }
+
+    p{
+        text-align: center;
+        color: whitesmoke;
+        font-size: 25px;
+    }
+
+    
+}

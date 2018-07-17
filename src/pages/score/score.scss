@@ -1,0 +1,53 @@
+page-score {
+
+ion-content{
+    background-image: url(../../assets/imgs/scoreback.jpg);
+}
+
+.column {
+    float: left;
+    width: 48%;
+    padding: 10px;
+    height: 300px;
+    
+    color: goldenrod;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.buttons{
+    padding-top: 10px;
+    color: goldenrod;
+    border: goldenrod;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+    background-color: black;
+}
+
+p:hover{
+    background-color: white;
+}
+
+p:active{
+    background-color: white;
+}
+}

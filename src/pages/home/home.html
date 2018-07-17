@@ -1,0 +1,22 @@
+<ion-content padding id="welcome">
+  <h1>Rugby</h1>
+  <div id="text"> score Keeping application</div>
+  <ion-list>
+    <ion-item padding >
+      <ion-input type="text" placeholder="Home Team" #home></ion-input>
+    </ion-item>
+  </ion-list>
+  
+  <p>VS.</p>
+  <ion-list>
+    <ion-item padding >
+      <ion-input type="text" placeholder="Away Team"#away></ion-input>
+    </ion-item>
+  </ion-list>
+  
+    
+      
+
+
+  <button ion-button padding full round color="white" (click)="startButton(home.value,away.value)" id="marginTop">Kick Off</button>
+  </ion-content>
